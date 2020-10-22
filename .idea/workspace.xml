@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1b38c4b4-7835-4fc9-a590-3f11d8aa2b77" name="Default Changelist" comment="add data.json and get method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +37,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response88.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1jDRspv1HJkY4YEARaQjSo11juE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -25,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Node/Mosh/express-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -34,6 +59,113 @@
       <recent name="C:\Users\andre\WebstormProjects\mosh\vidly" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/movies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;name&quot;: &quot;Star Wars&quot;,   &quot;year&quot;: &quot;2020&quot;,   &quot;genre&quot;: &quot;SiFi&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/movies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;name&quot;: &quot;Star Wars&quot;,   &quot;year&quot;: &quot;2020&quot;,   &quot;genre&quot;: &quot;si&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/movies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;name&quot;: &quot;Star Wars&quot;,   &quot;year&quot;: &quot;2020&quot;,   &quot;genre&quot;: &quot;sifi&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/movies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;name&quot;: &quot;Star Wars&quot;,   &quot;year&quot;: &quot;2021&quot;,   &quot;genre&quot;: &quot;sifi&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/movies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;name&quot;: &quot;Star Wars&quot;,   &quot;year&quot;: &quot;1979&quot;,   &quot;genre&quot;: &quot;sifi&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/movies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +174,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603336885790</updated>
-      <workItem from="1603336887092" duration="3632000" />
+      <workItem from="1603336887092" duration="4647000" />
+      <workItem from="1603369887714" duration="3784000" />
     </task>
     <task id="LOCAL-00001" summary="add data.json and get method">
       <created>1603338940159</created>
@@ -57,11 +190,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add data.json and get method" />
     <option name="LAST_COMMIT_MESSAGE" value="add data.json and get method" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="370" y="105" key="FileChooserDialogImpl" timestamp="1603371539140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-121.1920.1040@0.0.1366.728" timestamp="1603371539140" />
     <state x="-1151" y="295" key="Github.ShareDialog" timestamp="1603337113763">
       <screen x="-1920" y="-121" width="1920" height="1040" />
     </state>
@@ -70,9 +218,14 @@
       <screen x="-1920" y="-121" width="1920" height="1040" />
     </state>
     <state x="-1396" y="18" key="Github.UntrackedFilesDialog/0.0.1366.728/-1920.-121.1920.1040@-1920.-121.1920.1040" timestamp="1603337140218" />
-    <state x="-1369" y="129" key="Vcs.Push.Dialog.v2" timestamp="1603338945092">
-      <screen x="-1920" y="-121" width="1920" height="1040" />
+    <state x="462" y="168" key="RestClientTextRequest" timestamp="1603371128309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="168" key="RestClientTextRequest/0.0.1366.728/-1920.-121.1920.1040@0.0.1366.728" timestamp="1603371128309" />
+    <state x="392" y="175" key="Vcs.Push.Dialog.v2" timestamp="1603340995312">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1369" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-121.1920.1040@-1920.-121.1920.1040" timestamp="1603338945092" />
+    <state x="392" y="175" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-121.1920.1040@0.0.1366.728" timestamp="1603340995312" />
   </component>
 </project>

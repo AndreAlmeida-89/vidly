@@ -2,19 +2,19 @@
   {
     "id": 1,
     "title": "Titanic",
-    "Year": 1997,
-    "Genre": "Romance"
+    "year": 1997,
+    "genre": "Romance"
   },
   {
     "id": 2,
     "title": "Toy Story",
-    "Year": 1995,
-    "Genre": "Adventure"
+    "year": 1995,
+    "genre": "Adventure"
   },
   {
     "id": 3,
     "title": "Matrix",
-    "Year": 1999,
-    "Genre": "SiFi"
+    "year": 1999,
+    "genre": "SiFi"
   }
 ]

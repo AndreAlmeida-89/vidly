@@ -1,3 +1,4 @@
+const Joi = require('joi')
 const express = require('express')
 const app = express()
 app.use(express.json())
@@ -21,7 +22,13 @@ app.get('/api/movies/:id', (req, res) => {
 
 
 //POST
-
+app.post('/api/movies', (req, res) => {
+    const {error} = validateMovie(req.body)
+    if (error) return res.send(error.details[0].message)
+    const movie = req.body
+    movie.id = movies.length + 1
+    res.send(movie)
+})
 
 
 //PUT
@@ -29,6 +36,28 @@ app.get('/api/movies/:id', (req, res) => {
 
 //DELETE
 
+
+//VALIDATE
+const validateMovie = (movie) => {
+    const schema = Joi.object({
+        name: Joi.string()
+            .min(3)
+            .max(30)
+            .required(),
+
+        year: Joi.number()
+            .integer()
+            .min(1900)
+            .max(new Date().getFullYear())
+            .required(),
+
+        genre: Joi.string()
+            .min(3)
+            .max(10)
+            .required()
+    })
+    return {error, value} = schema.validate(movie)
+}
 
 //PORT
 const port = process.env.PORT || 5000
