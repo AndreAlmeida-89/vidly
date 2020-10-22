@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b38c4b4-7835-4fc9-a590-3f11d8aa2b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+    <list default="true" id="1b38c4b4-7835-4fc9-a590-3f11d8aa2b77" name="Default Changelist" comment="add data.json and get method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +42,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603336885790</updated>
-      <workItem from="1603336887092" duration="1723000" />
+      <workItem from="1603336887092" duration="3632000" />
     </task>
+    <task id="LOCAL-00001" summary="add data.json and get method">
+      <created>1603338940159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603338940159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add data.json and get method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data.json and get method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1151" y="295" key="Github.ShareDialog" timestamp="1603337113763">
@@ -58,9 +70,9 @@
       <screen x="-1920" y="-121" width="1920" height="1040" />
     </state>
     <state x="-1396" y="18" key="Github.UntrackedFilesDialog/0.0.1366.728/-1920.-121.1920.1040@-1920.-121.1920.1040" timestamp="1603337140218" />
-    <state x="-1369" y="129" key="Vcs.Push.Dialog.v2" timestamp="1603337318632">
+    <state x="-1369" y="129" key="Vcs.Push.Dialog.v2" timestamp="1603338945092">
       <screen x="-1920" y="-121" width="1920" height="1040" />
     </state>
-    <state x="-1369" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-121.1920.1040@-1920.-121.1920.1040" timestamp="1603337318632" />
+    <state x="-1369" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-121.1920.1040@-1920.-121.1920.1040" timestamp="1603338945092" />
   </component>
 </project>
